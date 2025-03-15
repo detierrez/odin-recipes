@@ -1,11 +1,35 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
 body {
   font-family: "Verdana", sans-serif;
-  background-color: #F2F6D0;
+  background-color: #f2f6d0;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  background-color: #443627;
+  padding: 16px 60px;
+}
+
+.navbar a {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+}
+
+.main-container {
+  margin: 30px 120px;
 }
 
 img.preview {
   height: 450px;
   width: auto;
+  margin: 0 auto;
 }
 
 h1,
@@ -13,8 +37,17 @@ h2 {
   color: #443627;
 }
 
+h1 {
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
 ul li::marker,
 ol li::marker,
 ol li {
-  color: #D98324;
+  color: #d98324;
 }
