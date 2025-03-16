@@ -27,7 +27,8 @@ body {
 }
 
 .main-container {
-  margin: 90px 120px;
+  margin: 90px 180px;
+  width: 800px;
 }
 
 img.preview {
